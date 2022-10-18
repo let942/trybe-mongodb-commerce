@@ -8,7 +8,7 @@ db.produtos.updateMany(
           $lt: 40,
         },
       },
-    }
+    },
   },
   {
     $push: {

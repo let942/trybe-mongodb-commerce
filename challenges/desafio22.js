@@ -7,7 +7,7 @@ db.produtos.updateOne(
   { nome: "Big Mac" },
   {
     $set: {
-      "vendasPorDia.4": 60,
+      "vendasPorDia.3": 60,
     },
   },
 );

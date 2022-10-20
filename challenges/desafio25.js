@@ -7,7 +7,7 @@ db.produtos.updateOne(
           $gt: 40,
         },
       },
-    }
+    },
   },
   {
     $push: {
